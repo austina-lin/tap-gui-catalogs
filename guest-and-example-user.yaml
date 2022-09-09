@@ -12,10 +12,10 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: austinaclin@gmail.com
+  name: austinal
 spec:
   profile:
-    displayName: Austina Lin
+    displayName: Test Austina Catalog User
     email: austinal@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/gweresch@example.com.svg\?background\=%23fff
   memberOf: [default-team]
