@@ -8,5 +8,6 @@ spec:
     displayName: Test Austina Catalog User
     email: austinal@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/gweresch@example.com.svg\?background\=%23fff
-  memberOf: 
+  memberOf:
+    - admins
     - everyone
