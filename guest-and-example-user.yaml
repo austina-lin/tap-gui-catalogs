@@ -1,13 +1,3 @@
-apiVersion: backstage.io/v1alpha1
-kind: User
-metadata:
-  name: guest
-spec:
-  profile:
-    displayName: Guest User
-    email: guest@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg\?background\=%23fff
-  memberOf: [default-team]
 ---
 apiVersion: backstage.io/v1alpha1
 kind: User
@@ -18,4 +8,5 @@ spec:
     displayName: Test Austina Catalog User
     email: austinal@vmware.com
     picture: https://avatars.dicebear.com/api/avataaars/gweresch@example.com.svg\?background\=%23fff
-  memberOf: [default-team]
+  memberOf: 
+    - everyone
